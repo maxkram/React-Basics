@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 317px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #1a1b21;
+
+    color: #fff;
+}
+
+/*INFO*/
+.info {
+    max-width: 100%;
+    text-align: center;
+  }
+
+.info > h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.info > p {
+    font-family: "Inter", sans-serif;
+    color: #f3bf99;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.profile-picture {
+    width: 317px;
+    height: 280px;
+    left: 116px;
+    top: 44px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    width: 100%;
+    max-width: 247px;
+    height: 34px;
+    margin: 0px auto;
+
+    /* white */
+    background-color: #fff;
+
+    /* gray/300 */
+    border: 1px solid #c0c3c7;
+    box-sizing: border-box;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;  
+}
+
+.email-icon {
+    color: #1e1f26;
+    margin-right: 9.6px;
+}
+
+/*ABOUT & INTEREST*/
+.about,
+.interest {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.about>h1,
+.interest>h1 {
+    width: 242.71px;
+    margin: 0px auto;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #f5f5f5;
+}
+
+.about>p,
+.interest>p {
+    width: 247px;
+    margin: 2px auto;
+
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #dcdcdc;
+}
+
+/*FOOTER*/
+
+.footer {
+    max-width: 317px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px auto
+  }
+  
+  .icon-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icon-list li {
+    margin-right: 25px;
+    margin-top: 19px;
+  }
